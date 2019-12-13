@@ -661,9 +661,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_UiScaleMode: 0
   m_ReferencePixelsPerUnit: 100
-  m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
-  m_ScreenMatchMode: 0
+  m_ScaleFactor: 3
+  m_ReferenceResolution: {x: 1600, y: 900}
+  m_ScreenMatchMode: 1
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
   m_FallbackScreenDPI: 96
@@ -919,7 +919,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_UiScaleMode: 0
   m_ReferencePixelsPerUnit: 100
-  m_ScaleFactor: 1
+  m_ScaleFactor: 3
   m_ReferenceResolution: {x: 800, y: 600}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0
@@ -1239,7 +1239,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: -115, y: 15}
+  m_AnchoredPosition: {x: -108, y: 15}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1963043405
@@ -1319,7 +1319,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 70, y: 15}
+  m_AnchoredPosition: {x: 52, y: 15}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2084299954
@@ -1458,7 +1458,7 @@ PrefabInstance:
     - target: {fileID: 1394498731795568993, guid: 68a289d89b6f975429c65157419c4409,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2.66
+      value: -2
       objectReference: {fileID: 0}
     - target: {fileID: 1394498731795568993, guid: 68a289d89b6f975429c65157419c4409,
         type: 3}
@@ -1509,6 +1509,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2619131682491335135, guid: 68a289d89b6f975429c65157419c4409,
+        type: 3}
+      propertyPath: xSize
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2619131682491335135, guid: 68a289d89b6f975429c65157419c4409,
+        type: 3}
+      propertyPath: ySize
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 68a289d89b6f975429c65157419c4409, type: 3}

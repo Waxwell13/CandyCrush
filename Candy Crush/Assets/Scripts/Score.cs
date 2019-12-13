@@ -19,7 +19,7 @@ public class Score : MonoBehaviour
     void Awake()
     {
         instance = GetComponent<Score>();
-        moveCounter = 1;
+        moveCounter = 30;
     }
 
     public void GameOver()

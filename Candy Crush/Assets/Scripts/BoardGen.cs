@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class BoardGen : MonoBehaviour
 {
-
     public static BoardGen instance;
     public List<Sprite> characters = new List<Sprite>();
     public GameObject tile;
